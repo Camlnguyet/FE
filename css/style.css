@@ -1,0 +1,169 @@
+:root{
+  --blueblack: #0F1B4C;
+  --white: #fff;
+}
+/* font */
+h1{
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 118.75%; 
+  margin-top: 8px;
+  margin-bottom: 30px;
+  color: #000336;
+}
+h2{
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 100%; 
+  color: #000339;
+}
+/* Poppins Regular 18 */
+.body1{
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.18px;
+}
+.body2{
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+  color: #7D8589;
+}
+.subtitle2{
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+}
+.cap{
+  font-size: 14px;
+  color: #0689FF;
+  font-weight: 600; 
+}
+/* css cho cả trang */
+*{
+  margin: 0;
+}
+html{
+  font-family: Poppins;
+  width: 100%;
+}
+/* css header */
+header{
+  background-color: #E6F0FF;
+  /* width: 100%; */
+  padding:38px 164px 0px 164px;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+nav ul.menu li{
+  margin-right: 28px;
+  color: #4F5361;
+}
+nav ul.btn li{
+  margin-right: 18px;
+  color: #0F1B4C;
+}
+.btnClick{
+  background-color: var(--blueblack);
+  font-family: Poppins;
+  color: var(--white);
+  padding: 10px 23px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.headerContent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hContent{
+  width: 560px;
+}
+.hContent p:first-child{
+  margin: 0;
+  color:  #687690;
+}
+.hContent p:nth-child(3){
+  color: #5A6473;
+}
+.hContent button{
+  margin-top: 40px;
+}
+#clientLogo{
+  margin: 78px 0px 40px 0px;
+  padding:43px 164px 41px 164px;
+}
+.contentLogo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.imgLogo{
+  height: 91px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#howItWork{
+  margin: 0px 0px 41px 0px;
+  padding: 79px 378px;
+  text-align: center;
+}
+.typeSeller{
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  justify-content: space-around;
+}
+#howItWork p.body1{
+  width: 459px;
+  margin: 20px auto;
+  color: #5A6473;
+  font-size: 16px;
+}
+#feature01{
+  margin-top: 75px;
+  padding: 110px 165px;
+  background-color: #F5FAFE;
+  position: relative;
+}
+#feature01 p.cap{
+  position: absolute;
+  top: 165px;
+  right: 197px;
+  z-index: 9999;
+}
+.featureContent article{
+  background-color: #fff;
+  width: 350px;
+  height: 357px;  
+  border-radius: 12px;
+}
+.itemContent{
+  margin: 17px 40px 22px 20px;
+  
+}
+.itemContent p.subtitle2{
+  font-weight: 600;
+}
+.itemContent p.body2{
+  font-size: 14px;
+  letter-spacing: normal;
+}
+.icon{
+  display: flex;
+}
+.icon .item1{
+  display: flex;
+}
