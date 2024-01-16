@@ -144,26 +144,82 @@ nav ul.btn li{
   right: 197px;
   z-index: 9999;
 }
-.featureContent article{
+.featureContent{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.item{
   background-color: #fff;
   width: 350px;
-  height: 357px;  
+  height: 379px;  
   border-radius: 12px;
 }
 .itemContent{
-  margin: 17px 40px 22px 20px;
-  
+  margin-top: 17px;
+  margin-left: 20px;
 }
 .itemContent p.subtitle2{
   font-weight: 600;
+  margin-bottom: 11px;
 }
 .itemContent p.body2{
   font-size: 14px;
   letter-spacing: normal;
 }
 .icon{
+  width: 289.59px;
   display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+  margin-bottom: 22px;
 }
 .icon .item1{
   display: flex;
+}
+.item1 img{
+  margin-right: 8px;
+}
+#feature02{
+  margin: 50px 227px 50px 196px;
+
+}
+.imageCard{
+  display: flex;
+  justify-content: space-between;
+}
+.cardContent{
+  width: 309px;
+}
+.card{
+  position: relative;
+}
+.card img.underContent{
+  position: absolute;
+  z-index: 999;
+  left: 120px;
+  border-radius: 12px;
+}
+.card div.overContent{
+  position: absolute;
+  z-index: 9999;
+  top:0;
+  background: #FFF;
+  border-radius: 12px;
+  width: 239px;
+}
+.overContent h1{
+  font-size: 26px;
+}
+.overContent h1 img{
+  margin-left: 55px;
+}
+.overContent p.body1{
+  font-size: 12px;
+  color: #A7A7A7;
+  width: 194px;
+}
+.cardContent p.body1{
+  font-size: 16px;
+  color: #5A6473;
 }
