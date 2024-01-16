@@ -182,16 +182,18 @@ nav ul.btn li{
 }
 #feature02{
   margin: 50px 227px 50px 196px;
-
 }
 .imageCard{
+  
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .cardContent{
   width: 309px;
 }
 .card{
+  height: 460px;
   position: relative;
 }
 .card img.underContent{
@@ -207,19 +209,37 @@ nav ul.btn li{
   background: #FFF;
   border-radius: 12px;
   width: 239px;
+  height: 252px;
 }
 .overContent h1{
   font-size: 26px;
+  margin-left: 22px;
+  margin-top: 45px;
 }
 .overContent h1 img{
-  margin-left: 55px;
+  margin-left: 35px;
 }
 .overContent p.body1{
+  margin-left: 22px;
   font-size: 12px;
   color: #A7A7A7;
   width: 194px;
 }
+.overContent img{
+  margin-left: 22px;
+}
 .cardContent p.body1{
   font-size: 16px;
   color: #5A6473;
+}
+.countdown{
+  display: flex;
+  justify-content: space-between;
+}
+.count{
+  margin-top: 110px;
+}
+.count h2{
+  font-size: 64px;
+  margin-bottom: 22px;
 }
