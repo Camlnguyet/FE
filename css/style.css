@@ -47,6 +47,9 @@ html{
   font-family: Poppins;
   width: 100%;
 }
+body{
+  width: 100%;
+}
 /* css header */
 header{
   background-color: #E6F0FF;
@@ -242,4 +245,83 @@ nav ul.btn li{
 .count h2{
   font-size: 64px;
   margin-bottom: 22px;
+}
+.newsletter{
+  position: relative;
+  height: 370px;
+  margin: 39px 165px 55px 165px;
+  background-color: #063183;
+  border-radius: 20px;
+}
+.news{
+  padding-top: 110px;
+  margin-left: 80px;
+}
+.news h2{
+  color: #fff;
+  margin-bottom: 15px;
+}
+.news p.body1{
+  color: #ffffff75;
+  margin-bottom: 20px;
+}
+.news button{
+  padding: 15px 42px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #002366;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+}
+.newsletter img{
+  position: absolute;
+  top: -38px;
+  right: 222px;
+}
+footer._footer{
+  margin: 58px 165px;
+  margin-top: 78px;
+  display: grid;
+  grid-template-columns: auto auto auto 300px;
+  row-gap: 81px;
+  grid-template-rows: auto auto;
+}
+footer._footer ul li{
+  list-style: none;
+  margin-bottom: 21px;
+}
+footer._footer ul li a{
+  text-decoration: none;
+  color: #7A7A7E;;
+}
+footer._footer ul li:first-child{
+  color: #1C1C1D;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.getintouch h1{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+}
+.getintouch p{
+  font-size: 16px;
+  color: #7A7A7E;
+  width: 257px;
+}
+.getintouch img{
+  width: 28px;
+  height: 28.471px;
+  margin-top: 40px;
+  margin-right: 16px;
+}
+footer._footer img.logo{
+  grid-column: 1 /4;
+}
+footer._footer p:last-child{
+  color: #C2C2C2;
+  font-size: 14px;
+  font-weight: 400;
 }
