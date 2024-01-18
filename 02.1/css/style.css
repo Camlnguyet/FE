@@ -4,6 +4,18 @@
     font-size: 10px;
     font-weight: 500;
 }
+h1{
+    color: #0D1111;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 116.129%;
+}
+h2{
+    color: #0D1111;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 56px; /* 133.333% */
+}
 /* css cho cả trang */
 html{
     margin: 0;
@@ -17,6 +29,7 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 header nav ul{
     display: flex;
@@ -46,6 +59,54 @@ header nav ul li a{
 }
 .contentHeader{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textElement{
+    width: 458px;
+}
+.textElement p.specialone{
+    color: #767E7E;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+.textElement h1{
+    margin: 0px 0px 46px 0px;
+}
+.textElement p:nth-child(3){
+    color: #9DA6A5;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 374px;
+}
+.buttonSpec{
+    display: flex;
+    align-items: center;
+}
+.buttonSpec img{
+    width: 14px;
+    height: 18px;
+    padding: 22px 22px;
+    /* border: 1px solid #000; */
+    /* border-radius: 50%; */
+}
+.buttonSpec button#al{
+    background-color: #fff;
+    border-radius: 51%;
+    border: 1px solid #9DA6A550;
+}
+.btnSubmit{
+    border-radius: 14px;
+    background: #1EBFC1;
+    padding: 20px 41px;
+    border: 1px solid #1ebfc1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 50px;
 }
 .imageHeader{
     background-color: #E0F7F6;
@@ -89,6 +150,48 @@ header nav ul li a{
 .item3{
     width: 207px;
     height: 90px;
+    position: absolute;
+    z-index: 121;
+    right: 45px;
+    bottom: 41px;
     background-color: #FEFEFD;
     border-radius: 24px;
+}
+.item3 p{
+    margin-top: 17px;
+    margin-left: 35px;
+}
+.item3 img{
+    margin-left: 35px;
+}
+.feature01{
+    margin: 130px 281px 130px 135px;
+    width: 1024px;
+}
+.feature01 h2{
+    width: 577px;
+    margin: 18px 0px;
+}
+.feature01 p:nth-child(3){
+    color: #767E7E;
+    font-size: 18px;
+    font-weight: 400;
+}
+.contentFeature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.contentFeature p:nth-child(2){
+    color: #0D1111;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contentFeature p:nth-child(3){
+    width: 224px;
+    color: #9DA6A5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
 }
